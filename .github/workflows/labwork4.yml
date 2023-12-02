@@ -21,7 +21,7 @@ jobs:
           - name: Run a multi-line script
             working-directory: ./tests
             run: |
-              python -m ./tests/unittests_ploshad
-              python -m ./tests/unittests_circle
-              python -m ./tests/unittests_square
-              python -m ./tests/unittests_triangle
+              python -m unittests_ploshad
+              python -m unittests_circle
+              python -m unittests_square
+              python -m unittests_triangle
