@@ -1,6 +1,6 @@
 import unittest
-from .\circle import area
-from .\circle import perimeter
+from D:\a\new_features_409209\new_features_409209\tests\circle import area
+from D:\a\new_features_409209\new_features_409209\tests\circle import perimeter
 
 
 class RectangleTestCase(unittest.TestCase):
