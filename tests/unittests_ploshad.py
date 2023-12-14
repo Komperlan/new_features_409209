@@ -22,11 +22,11 @@ class RectangleTestCase(unittest.TestCase):
 
     def test_circ_area_neg(self):
         res = Ploshad(-123, 0)
-        self.assertEqual(res, "Change input parameters")
+        self.assertEqual(res, "Wrong input parameters")
 
     def test_circ_perimeter_neg(self):
         res = perimetr(-123, 0)
-        self.assertEqual(res, "Change input parameters")
+        self.assertEqual(res, "Wrong input parameters")
 
 
 if __name__ == '__main__':
