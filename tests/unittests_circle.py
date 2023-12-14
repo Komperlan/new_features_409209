@@ -1,6 +1,6 @@
 import unittest
-from circle.py import area
-from circle.py import perimeter
+from circle import area
+from circle import perimeter
 
 
 class RectangleTestCase(unittest.TestCase):
