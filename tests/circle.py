@@ -16,7 +16,7 @@ def area(r):
     """
 
     if(r < 0):
-        raise TypeError("Change input number");
+        return "Wrong input parameters"
 
     return math.pi * r * r
 
@@ -36,7 +36,7 @@ def perimeter(r):
     """
 
     if(r < 0):
-        raise TypeError("Change input number");
+        return "Wrong input parameters"
 
     return 2 * math.pi * r
 
