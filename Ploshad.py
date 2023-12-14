@@ -11,6 +11,8 @@ def Ploshad(a, h):
         input(2, 4)
         output(8)
     """
+    if(a <= 0 or h <= 0):
+        return "Wrong input parameters"
     return a*h
 def perimetr(a, b):
     """
@@ -26,4 +28,6 @@ def perimetr(a, b):
         input(2, 4)
         output(12)
     """
+    if(a <= 0 or b <= 0):
+        return "Wrong input parameters"
     return 2*(a+b)
