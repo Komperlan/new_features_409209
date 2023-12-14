@@ -1,6 +1,6 @@
 import unittest
-from tests\Ploshad import Ploshad
-from tests\Ploshad import perimetr
+from Ploshad import Ploshad
+from Ploshad import perimetr
 
 
 class RectangleTestCase(unittest.TestCase):
