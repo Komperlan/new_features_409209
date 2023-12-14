@@ -14,6 +14,8 @@ def area(a, h):
         h = 4
         :return 12
     """
+    if(a <= 0 or h <= 0):
+        return "Wrong input parameters"
     return a * h / 2
 
 def perimeter(a, b, c):
@@ -31,4 +33,6 @@ def perimeter(a, b, c):
         input (1, 2, 3)
         output(6)
     """
+    if(a <= 0 or a <= 0 or b <= 0):
+        return "Wrong input parameters"
     return a + b + c
