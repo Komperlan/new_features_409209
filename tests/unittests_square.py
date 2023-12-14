@@ -22,11 +22,11 @@ class RectangleTestCase(unittest.TestCase):
 
     def test_square_area_neg(self):
         res = area(-123)
-        self.assertEqual(res, "Change input parameters")
+        self.assertEqual(res, "Wrong input parameters")
 
     def test_square_perimeter_neg(self):
         res = perimeter(-123)
-        self.assertEqual(res, "Change input parameters")
+        self.assertEqual(res, "Wrong input parameters")
 
 
 if __name__ == '__main__':
